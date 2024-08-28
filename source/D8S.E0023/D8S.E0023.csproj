@@ -1,15 +1,20 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
-    <Version>1.0.0</Version>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
-    <NoWarn>1591</NoWarn>
+    <NoWarn>1573;1587;1591</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Version>0.0.1</Version>
     <Authors>DCoats</Authors>
-    <Company>Rivet</Company>
     <Copyright>Copyright (c) Rivet 2024</Copyright>
-    <Description>--- ADD DESCRIPTION ---</Description>
+    <Description>An example package specifically for experimenting with the NuGet packaging process.</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <RepositoryUrl>https://github.com/davidcoats/D8S.E0023.git</RepositoryUrl>
+    <PackageReadmeFile>Project Plan.md</PackageReadmeFile>
   </PropertyGroup>
+  <ItemGroup>
+    <None Include="Project Plan.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
 </Project>
