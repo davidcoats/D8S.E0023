@@ -5,7 +5,7 @@
     <NoWarn>1573;1587;1591</NoWarn>
   </PropertyGroup>
   <PropertyGroup>
-    <Version>0.0.1</Version>
+    <Version>0.0.3</Version>
     <Authors>DCoats</Authors>
     <Copyright>Copyright (c) Rivet 2024</Copyright>
     <Description>An example package specifically for experimenting with the NuGet packaging process.</Description>
